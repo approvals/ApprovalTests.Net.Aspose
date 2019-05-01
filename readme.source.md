@@ -1,8 +1,3 @@
-<!--
-This file was generate by MarkdownSnippets.
-Source File: /readme.source.md
-To change this file edit the source file and then re-run the generation using either the dotnet global tool (https://github.com/SimonCropp/MarkdownSnippets#markdownsnippetstool) or using the api (https://github.com/SimonCropp/MarkdownSnippets#running-as-a-unit-test).
--->
 # <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
@@ -21,12 +16,7 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 Assuming you have previously verified and approved using this.
 
-<!-- snippet: VerifyPdf -->
-```cs
-AsposeApprovals.VerifyPdf("sample.pdf");
-```
-<sup>[snippet source](/src/Tests/Samples.cs#L10-L14)</sup>
-<!-- endsnippet -->
+snippet: VerifyPdf
 
 Then you attempt to verify this the result is [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
 
