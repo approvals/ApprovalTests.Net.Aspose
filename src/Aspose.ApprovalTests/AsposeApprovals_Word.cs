@@ -29,15 +29,7 @@ namespace AsposeApprovalTests
                 {
                     PageIndex = pageIndex
                 };
-                string name;
-                if (document.PageCount < 9)
-                {
-                    name = $"{pageIndex + 1}";
-                }
-                else
-                {
-                    name = $"{pageIndex + 1:D2}";
-                }
+                var name = $"{pageIndex + 1:D2}";
                 using (NamerFactory.AsEnvironmentSpecificTest(() => name))
                 using (var outputStream = new MemoryStream())
                 {

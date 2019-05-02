@@ -28,15 +28,7 @@ namespace AsposeApprovalTests
         {
             foreach (var page in document.Pages)
             {
-                string name;
-                if (document.Pages.Count < 10)
-                {
-                    name = $"{page.Number}";
-                }
-                else
-                {
-                    name = $"{page.Number:D2}";
-                }
+                var name = $"{page.Number:D2}";
                 using (NamerFactory.AsEnvironmentSpecificTest(() => name))
                 using (var outputStream = new MemoryStream())
                 {
