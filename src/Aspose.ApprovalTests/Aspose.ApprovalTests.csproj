@@ -9,8 +9,8 @@
     <PackageReference Include="Aspose.Pdf" Version="19.4.0" />
     <PackageReference Include="Aspose.Cells" Version="19.4.0" />
     <PackageReference Include="Aspose.Diagram" Version="19.4.0" />
-    <PackageReference Include="Aspose.Email" Version="19.3.0" />
-    <PackageReference Include="Aspose.Slides.NET" Version="19.3.0" />
+    <PackageReference Include="Aspose.Email" Version="19.4.0" />
+    <PackageReference Include="Aspose.Slides.NET" Version="19.4.0" />
     <PackageReference Include="Aspose.Tasks" Version="19.4.0" />
     <PackageReference Include="Aspose.Words" Version="19.4.0" />
     <PackageReference Include="Aspose.HTML" Version="19.4.0" />

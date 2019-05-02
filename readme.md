@@ -42,7 +42,7 @@ Result: [Samples.VerifyPdf.1.approved.png](https://raw.github.com/SimonCropp/Asp
 ```cs
 AsposeApprovals.VerifyExcel("sample.xlsx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L31-L35)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png):
@@ -56,7 +56,7 @@ Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp
 ```cs
 AsposeApprovals.VerifyWord("sample.docx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L41-L45)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L31-L35)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):
