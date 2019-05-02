@@ -11,4 +11,4 @@ nugets/
 *.DotSettings.user
 
 # Approval Tests
-*.received.txt
+*.received.*

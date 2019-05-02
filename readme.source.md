@@ -14,6 +14,7 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 ## Usage
 
+
 ### PDF
 
 snippet: VerifyPdf
@@ -31,6 +32,7 @@ Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Asp
 ## File Samples
 
 http://file-examples.com/
+
 
 ## Icon
 
