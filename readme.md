@@ -7,7 +7,7 @@ To change this file edit the source file and then re-run the generation using ei
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
-Converts documents (pdf, docx) to tiff.
+Converts documents (pdf, docx) to png for verification.
 
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
@@ -31,9 +31,9 @@ AsposeApprovals.VerifyPdf("sample.pdf");
 <sup>[snippet source](/src/Tests/Samples.cs#L11-L15)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
+Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.png" height="200px">
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png" height="200px">
 
 
 ### Word
@@ -45,9 +45,9 @@ AsposeApprovals.VerifyWord("sample.docx");
 <sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff):
+Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.png" height="200px">
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png" height="200px">
 
 
 ## File Samples
