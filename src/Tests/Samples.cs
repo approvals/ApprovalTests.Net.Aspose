@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using AsposeApprovalTests;
+using Xunit;
 using Xunit.Abstractions;
 
 public class Samples :
@@ -10,6 +11,15 @@ public class Samples :
         #region VerifyPdf
 
         AsposeApprovals.VerifyPdf("sample.pdf");
+
+        #endregion
+    }
+    [Fact]
+    public void VerifyWord()
+    {
+        #region VerifyWord
+
+        AsposeApprovals.VerifyWord("sample.docx");
 
         #endregion
     }

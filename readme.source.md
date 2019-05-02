@@ -14,14 +14,25 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 ### PDF
 
-Assuming you have previously verified and approved using this.
-
 snippet: VerifyPdf
 
-Then you attempt to verify this the result is [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
+Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
 
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff" height="200px">
 
+
+### Word
+
+snippet: VerifyWord
+
+Result: [Samples.v.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff" height="200px">
+
+
+## File Samples
+
+http://file-examples.com/
 
 ## Icon
 
