@@ -35,6 +35,15 @@ Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png" width="200px">
 
 
+### Project
+
+snippet: VerifyProject
+
+Result: [Samples.VerifyProject.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyProject.approved.png):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyProject.approved.png" width="200px">
+
+
 ### Word
 
 snippet: VerifyWord

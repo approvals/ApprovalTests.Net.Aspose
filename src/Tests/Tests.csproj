@@ -20,6 +20,9 @@
     <None Update="sample.docx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="sample.mpp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="sample.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

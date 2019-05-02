@@ -16,6 +16,16 @@ public class Samples :
     }
 
     [Fact]
+    public void VerifyProject()
+    {
+        #region VerifyProject
+
+        AsposeApprovals.VerifyProject("sample.mpp");
+
+        #endregion
+    }
+
+    [Fact]
     public void VerifyExcel()
     {
         #region VerifyExcel
