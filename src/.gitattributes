@@ -7,5 +7,10 @@
 *.docx binary
 *.png binary
 *.xlsx binary
+*.mpp binary
+*.msg binary
+*.one binary
+*.pptx binary
+*.vsdx binary
 
 *.approved.* binary
