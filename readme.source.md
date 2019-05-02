@@ -21,12 +21,16 @@ snippet: VerifyPdf
 
 Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
 
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.png" height="200px">
+
 
 ### Word
 
 snippet: VerifyWord
 
 Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.png" height="200px">
 
 
 ## File Samples

@@ -31,6 +31,8 @@ AsposeApprovals.VerifyPdf("sample.pdf");
 
 Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
 
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.png" height="200px">
+
 
 ### Word
 
@@ -42,6 +44,8 @@ AsposeApprovals.VerifyWord("sample.docx");
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.png" height="200px">
 
 
 ## File Samples
