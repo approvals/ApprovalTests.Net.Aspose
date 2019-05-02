@@ -1,5 +1,8 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using ApprovalTests;
+using ApprovalTests.Core.Exceptions;
+using ApprovalTests.Namers;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
@@ -7,32 +10,34 @@ namespace AsposeApprovalTests
 {
     public static partial class AsposeApprovals
     {
-        public static void VerifyWord(string path, ImageSaveOptions options = default)
+        public static void VerifyWord(string path)
         {
             var document = new Document(path);
             {
-                VerifyWord(document, options);
+                VerifyWord(document);
             }
         }
 
-        public static void VerifyWord(Stream stream, ImageSaveOptions options = default)
+        public static void VerifyWord(Stream stream)
         {
             var document = new Document(stream);
-            VerifyWord(document, options);
+            VerifyWord(document);
         }
 
-        static void VerifyWord(Document document, ImageSaveOptions options = default)
+        static void VerifyWord(Document document)
         {
-            if (options == null)
+            for (var pageIndex = 0; pageIndex < document.PageCount; pageIndex++)
             {
-                options = new ImageSaveOptions(SaveFormat.Tiff);
-            }
-
-            using (var outputStream = new MemoryStream())
-            {
-                document.Save(outputStream, options);
-                outputStream.Position = 0;
-                Approvals.VerifyBinaryFile(outputStream.ToArray(), ".tiff");
+                var options = new ImageSaveOptions(SaveFormat.Png)
+                {
+                    PageIndex = pageIndex
+                };
+                using (NamerFactory.AsEnvironmentSpecificTest(() => $"{pageIndex + 1}"))
+                using (var outputStream = new MemoryStream())
+                {
+                    document.Save(outputStream, options);
+                    VerifyBinary(outputStream, pageIndex, document.PageCount);
+                }
             }
         }
     }

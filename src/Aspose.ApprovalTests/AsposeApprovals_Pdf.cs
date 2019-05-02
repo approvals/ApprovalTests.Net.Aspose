@@ -1,7 +1,8 @@
 ﻿using System.IO;
 using ApprovalTests;
+using ApprovalTests.Namers;
 using Aspose.Pdf;
-using Aspose.Pdf.Facades;
+using Aspose.Pdf.Devices;
 
 namespace AsposeApprovalTests
 {
@@ -25,12 +26,15 @@ namespace AsposeApprovalTests
 
         static void VerifyPdf(Document document)
         {
-            using (var pdfConverter = new PdfConverter(document))
-            using (var outputStream = new MemoryStream())
+            foreach (var page in document.Pages)
             {
-                pdfConverter.SaveAsTIFF(outputStream);
-                outputStream.Position = 0;
-                Approvals.VerifyBinaryFile(outputStream.ToArray(), ".tiff");
+                using (NamerFactory.AsEnvironmentSpecificTest(() => $"{page.Number}"))
+                using (var outputStream = new MemoryStream())
+                {
+                    var pngDevice = new PngDevice();
+                    pngDevice.Process(page, outputStream);
+                    VerifyBinary(outputStream, page.Number, document.Pages.Count);
+                }
             }
         }
     }

@@ -7,6 +7,8 @@ To change this file edit the source file and then re-run the generation using ei
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
+Converts documents (pdf, docx) to tiff.
+
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
 
