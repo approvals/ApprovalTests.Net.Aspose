@@ -21,7 +21,7 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 snippet: VerifyPdf
 
-Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png):
+Result: [Samples.VerifyPdf.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png):
 
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png" width="200px">
 
@@ -30,7 +30,7 @@ Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspo
 
 snippet: VerifyWord
 
-Result: [Samples.VerifyWord.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):
+Result: [Samples.VerifyWord.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):
 
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png" width="200px">
 
