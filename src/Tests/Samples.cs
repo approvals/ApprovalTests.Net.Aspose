@@ -14,6 +14,7 @@ public class Samples :
 
         #endregion
     }
+
     [Fact]
     public void VerifyWord()
     {

@@ -18,7 +18,7 @@
     <ProjectReference Include="..\Aspose.ApprovalTests\Aspose.ApprovalTests.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="sample.pdf">
+    <None Update="sample.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -36,4 +36,4 @@ http://file-examples.com/
 
 ## Icon
 
-<a href="http://thenounproject.com/term/helmet/9554/" target="_blank">Helmet</a> designed by <a href="http://thenounproject.com/alterego" target="_blank">Leonidas Ikonomou</a> from The Noun Project
+<a href="http://thenounproject.com/term/swirl/1568686/" target="_blank">Swirl</a> designed by <a href="http://thenounproject.com/creativepriyanka" target="_blank">creativepriyanka</a> from The Noun Project

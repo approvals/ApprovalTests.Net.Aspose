@@ -6,5 +6,6 @@
 *.pdf binary
 *.tiff binary
 *.docx binary
+*.png binary
 *.approved.txt binary
 

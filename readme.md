@@ -19,20 +19,36 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 ### PDF
 
-Assuming you have previously verified and approved using this.
-
 <!-- snippet: VerifyPdf -->
 ```cs
 AsposeApprovals.VerifyPdf("sample.pdf");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L10-L14)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L11-L15)</sup>
 <!-- endsnippet -->
 
-Then you attempt to verify this the result is [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
+Result: [Samples.VerifyPdf.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff):
 
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.approved.tiff" height="200px">
 
 
+### Word
+
+<!-- snippet: VerifyWord -->
+```cs
+AsposeApprovals.VerifyWord("sample.docx");
+```
+<sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
+<!-- endsnippet -->
+
+Result: [Samples.v.approved.tiff](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.approved.tiff" height="200px">
+
+
+## File Samples
+
+http://file-examples.com/
+
 ## Icon
 
-<a href="http://thenounproject.com/term/helmet/9554/" target="_blank">Helmet</a> designed by <a href="http://thenounproject.com/alterego" target="_blank">Leonidas Ikonomou</a> from The Noun Project
+<a href="http://thenounproject.com/term/swirl/1568686/" target="_blank">Swirl</a> designed by <a href="http://thenounproject.com/creativepriyanka" target="_blank">creativepriyanka</a> from The Noun Project
