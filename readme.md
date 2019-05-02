@@ -31,9 +31,9 @@ AsposeApprovals.VerifyPdf("sample.pdf");
 <sup>[snippet source](/src/Tests/Samples.cs#L11-L15)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyPdf.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png):
+Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png" width="200px">
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
 
 
 ### Excel
@@ -45,9 +45,9 @@ AsposeApprovals.VerifyExcel("sample.xlsx");
 <sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png):
+Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png" width="200px">
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
 
 
 ### Word
@@ -59,9 +59,9 @@ AsposeApprovals.VerifyWord("sample.docx");
 <sup>[snippet source](/src/Tests/Samples.cs#L31-L35)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyWord.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):
+Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png" width="200px">
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
 
 
 ## File Samples
