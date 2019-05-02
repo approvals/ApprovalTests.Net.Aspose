@@ -8,12 +8,11 @@
     <PackageReference Include="ApprovalTests" Version="3.0.22" />
     <PackageReference Include="Aspose.Pdf" Version="19.4.0" />
     <PackageReference Include="Aspose.Cells" Version="19.4.0" />
-    <PackageReference Include="Aspose.Diagram" Version="19.4.0" />
-    <PackageReference Include="Aspose.Email" Version="19.4.0" />
-    <PackageReference Include="Aspose.Slides.NET" Version="19.4.0" />
-    <PackageReference Include="Aspose.Tasks" Version="19.4.0" />
     <PackageReference Include="Aspose.Words" Version="19.4.0" />
+    <!--
+    <PackageReference Include="Aspose.Slides.NET" Version="19.4.0" />
     <PackageReference Include="Aspose.HTML" Version="19.4.0" />
+    -->
     <PackageReference Condition="$(Configuration)=='Release'" Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05" PrivateAssets="All" />
   </ItemGroup>
 </Project>
