@@ -39,7 +39,10 @@ namespace AsposeApprovalTests
                 var sheetRender = new SheetRender(worksheet, options);
                 for (var pageIndex = 0; pageIndex < sheetRender.PageCount; pageIndex++)
                 {
-                    var name = $"{sheetIndex + 1}.{pageIndex + 1}";
+                    var worksheetsCount = document.Worksheets.Count;
+                    var pageCount = sheetRender.PageCount;
+                    var name = GetPageName(pageIndex, sheetIndex, worksheetsCount, pageCount);
+
                     using (NamerFactory.AsEnvironmentSpecificTest(() => name))
                     using (var outputStream = new MemoryStream())
                     {
@@ -62,6 +65,30 @@ namespace AsposeApprovalTests
             {
                 throw approvalException;
             }
+        }
+
+        static string GetPageName(int pageIndex, int sheetIndex, int worksheetsCount, int pageCount)
+        {
+            var pageNumber = pageIndex + 1;
+            var sheetNumber = sheetIndex + 1;
+
+            if (worksheetsCount < 9)
+            {
+                if (pageCount < 9)
+                {
+                    return $"{sheetNumber}.{pageNumber}";
+                }
+
+                return $"{sheetNumber}.{pageNumber:D2}";
+            }
+
+            if (pageCount < 9)
+            {
+                return $"{sheetNumber:D2}.{pageNumber}";
+            }
+
+            return $"{sheetNumber:D2}.{pageNumber:D2}";
+
         }
     }
 }
