@@ -26,6 +26,15 @@ Result: [Samples.VerifyPdf.1.approved.png](https://raw.github.com/SimonCropp/Asp
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png" width="200px">
 
 
+### Excel
+
+snippet: VerifyExcel
+
+Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png" width="200px">
+
+
 ### Word
 
 snippet: VerifyWord

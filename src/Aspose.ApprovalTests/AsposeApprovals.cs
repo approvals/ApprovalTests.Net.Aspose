@@ -8,10 +8,11 @@ namespace AsposeApprovalTests
     {
         static void VerifyBinary(MemoryStream outputStream, int pageIndex, int count)
         {
+            outputStream.Position = 0;
+            var array = outputStream.ToArray();
             try
             {
-                outputStream.Position = 0;
-                Approvals.VerifyBinaryFile(outputStream.ToArray(), ".png");
+                Approvals.VerifyBinaryFile(array, ".png");
             }
             catch (ApprovalException)
             {

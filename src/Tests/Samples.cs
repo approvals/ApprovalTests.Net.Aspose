@@ -16,6 +16,16 @@ public class Samples :
     }
 
     [Fact]
+    public void VerifyExcel()
+    {
+        #region VerifyExcel
+
+        AsposeApprovals.VerifyExcel("sample.xlsx");
+
+        #endregion
+    }
+
+    [Fact]
     public void VerifyWord()
     {
         #region VerifyWord

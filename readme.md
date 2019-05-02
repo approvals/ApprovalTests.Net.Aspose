@@ -36,13 +36,27 @@ Result: [Samples.VerifyPdf.1.approved.png](https://raw.github.com/SimonCropp/Asp
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.1.approved.png" width="200px">
 
 
+### Excel
+
+<!-- snippet: VerifyExcel -->
+```cs
+AsposeApprovals.VerifyExcel("sample.xlsx");
+```
+<sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
+<!-- endsnippet -->
+
+Result: [Samples.VerifyExcel.1.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png):
+
+<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.1.1.approved.png" width="200px">
+
+
 ### Word
 
 <!-- snippet: VerifyWord -->
 ```cs
 AsposeApprovals.VerifyWord("sample.docx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L31-L35)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.1.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.1.approved.png):

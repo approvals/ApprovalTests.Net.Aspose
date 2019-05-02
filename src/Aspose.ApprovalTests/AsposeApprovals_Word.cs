@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-using ApprovalTests;
-using ApprovalTests.Core.Exceptions;
+﻿using System.IO;
 using ApprovalTests.Namers;
 using Aspose.Words;
 using Aspose.Words.Saving;
@@ -32,7 +29,8 @@ namespace AsposeApprovalTests
                 {
                     PageIndex = pageIndex
                 };
-                using (NamerFactory.AsEnvironmentSpecificTest(() => $"{pageIndex + 1}"))
+                var name = $"{pageIndex + 1}";
+                using (NamerFactory.AsEnvironmentSpecificTest(() => name))
                 using (var outputStream = new MemoryStream())
                 {
                     document.Save(outputStream, options);

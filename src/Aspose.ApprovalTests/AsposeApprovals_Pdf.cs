@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using ApprovalTests;
 using ApprovalTests.Namers;
 using Aspose.Pdf;
 using Aspose.Pdf.Devices;
@@ -24,6 +23,7 @@ namespace AsposeApprovalTests
             }
         }
 
+        static PngDevice pngDevice = new PngDevice();
         static void VerifyPdf(Document document)
         {
             foreach (var page in document.Pages)
@@ -31,7 +31,6 @@ namespace AsposeApprovalTests
                 using (NamerFactory.AsEnvironmentSpecificTest(() => $"{page.Number}"))
                 using (var outputStream = new MemoryStream())
                 {
-                    var pngDevice = new PngDevice();
                     pngDevice.Process(page, outputStream);
                     VerifyBinary(outputStream, page.Number, document.Pages.Count);
                 }
