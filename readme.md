@@ -3,7 +3,7 @@ This file was generate by MarkdownSnippets.
 Source File: /readme.source.md
 To change this file edit the source file and then re-run the generation using either the dotnet global tool (https://github.com/SimonCropp/MarkdownSnippets#markdownsnippetstool) or using the api (https://github.com/SimonCropp/MarkdownSnippets#running-as-a-unit-test).
 -->
-# <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
+# <img src="https://raw.githubusercontent.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 

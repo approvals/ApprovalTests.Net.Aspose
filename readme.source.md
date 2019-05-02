@@ -1,4 +1,4 @@
-# <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
+# <img src="https://raw.githubusercontent.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
