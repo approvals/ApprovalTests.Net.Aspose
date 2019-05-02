@@ -24,6 +24,7 @@ namespace AsposeApprovalTests
         }
 
         static PngDevice pngDevice = new PngDevice();
+
         static void VerifyPdf(Document document)
         {
             foreach (var page in document.Pages)

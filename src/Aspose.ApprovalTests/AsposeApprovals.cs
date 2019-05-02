@@ -13,17 +13,17 @@ namespace AsposeApprovalTests
             Approvals.VerifyBinaryFile(array, ".png");
         }
 
-        static void VerifyBinary(MemoryStream outputStream, int pageIndex, int count)
+        static void VerifyBinary(MemoryStream outputStream, int pageIndex, int count, string extension = ".png")
         {
             outputStream.Position = 0;
             var array = outputStream.ToArray();
             try
             {
-                Approvals.VerifyBinaryFile(array, ".png");
+                Approvals.VerifyBinaryFile(array, extension);
             }
             catch (ApprovalException)
             {
-                if (pageIndex == count)
+                if (pageIndex+1 == count)
                 {
                     throw;
                 }

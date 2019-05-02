@@ -11,6 +11,7 @@
 *.msg binary
 *.one binary
 *.pptx binary
+*.ppt binary
 *.vsdx binary
 
 *.approved.* binary

@@ -2,7 +2,7 @@
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
-Converts documents (pdf, docx, xslx) to png for verification.
+Converts documents (pdf, docx, xslx, pptx) to png for verification.
 
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
@@ -42,6 +42,14 @@ snippet: VerifyWord
 Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png):
 
 <img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
+
+
+### PowerPoint
+
+snippet: VerifyPowerPoint
+
+Result: [Samples.VerifyPowerPoint.01.approved.svg](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
+
 
 
 ## File Samples

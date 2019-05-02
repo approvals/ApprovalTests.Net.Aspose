@@ -16,6 +16,16 @@ public class Samples :
     }
 
     [Fact]
+    public void VerifyPowerPoint()
+    {
+        #region VerifyPowerPoint
+
+        AsposeApprovals.VerifyPowerPoint("sample.pptx");
+
+        #endregion
+    }
+
+    [Fact]
     public void VerifyExcel()
     {
         #region VerifyExcel

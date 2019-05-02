@@ -26,17 +26,18 @@ namespace AsposeApprovalTests
             }
         }
 
-        static ImageOrPrintOptions options = new ImageOrPrintOptions
-                {
-                    ImageType = ImageType.Png
-                };
+        static ImageOrPrintOptions excelOptions = new ImageOrPrintOptions
+        {
+            ImageType = ImageType.Png
+        };
+
         static void VerifyWord(Workbook document)
         {
             ApprovalException approvalException = null;
             for (var sheetIndex = 0; sheetIndex < document.Worksheets.Count; sheetIndex++)
             {
                 var worksheet = document.Worksheets[sheetIndex];
-                var sheetRender = new SheetRender(worksheet, options);
+                var sheetRender = new SheetRender(worksheet, excelOptions);
                 for (var pageIndex = 0; pageIndex < sheetRender.PageCount; pageIndex++)
                 {
                     var pageNumber = pageIndex + 1;
