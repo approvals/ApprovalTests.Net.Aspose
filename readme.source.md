@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> ObjectApproval
+# <img src="https://raw.githubusercontent.com/SimonCropp/Aspose.ApprovalTests/master/icon.png" height="40px"> Aspose.ApprovalTests
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
-Converts documents (pdf, docx) to png for verification.
+Converts documents (pdf, docx, xslx) to png for verification.
 
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
