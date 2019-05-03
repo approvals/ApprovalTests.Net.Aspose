@@ -1,4 +1,6 @@
 ﻿using System.IO;
+using System.Runtime.ExceptionServices;
+using ApprovalTests.Core.Exceptions;
 using ApprovalTests.Namers;
 using Aspose.Words;
 using Aspose.Words.Saving;
@@ -23,6 +25,7 @@ namespace AsposeApprovalTests
 
         static void VerifyWord(Document document)
         {
+            ApprovalException exception = null;
             for (var pageIndex = 0; pageIndex < document.PageCount; pageIndex++)
             {
                 var options = new ImageSaveOptions(SaveFormat.Png)
@@ -34,8 +37,13 @@ namespace AsposeApprovalTests
                 using (var outputStream = new MemoryStream())
                 {
                     document.Save(outputStream, options);
-                    VerifyBinary(outputStream, pageIndex, document.PageCount);
+                    VerifyBinary(outputStream, ref exception);
                 }
+            }
+
+            if (exception != null)
+            {
+                ExceptionDispatchInfo.Capture(exception).Throw();
             }
         }
     }

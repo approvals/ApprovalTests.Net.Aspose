@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using ApprovalTests;
+using System.Runtime.ExceptionServices;
 using ApprovalTests.Core.Exceptions;
 using ApprovalTests.Namers;
 using Aspose.Cells;
@@ -33,7 +33,7 @@ namespace AsposeApprovalTests
 
         static void VerifyWord(Workbook document)
         {
-            ApprovalException approvalException = null;
+            ApprovalException exception = null;
             for (var sheetIndex = 0; sheetIndex < document.Worksheets.Count; sheetIndex++)
             {
                 var worksheet = document.Worksheets[sheetIndex];
@@ -48,23 +48,14 @@ namespace AsposeApprovalTests
                     using (var outputStream = new MemoryStream())
                     {
                         sheetRender.ToImage(pageIndex, outputStream);
-                        outputStream.Position = 0;
-                        var array = outputStream.ToArray();
-                        try
-                        {
-                            Approvals.VerifyBinaryFile(array, ".png");
-                        }
-                        catch (ApprovalException exception)
-                        {
-                            approvalException = exception;
-                        }
+                        VerifyBinary(outputStream, ref exception);
                     }
                 }
             }
 
-            if (approvalException != null)
+            if (exception != null)
             {
-                throw approvalException;
+                ExceptionDispatchInfo .Capture(exception).Throw();
             }
         }
     }

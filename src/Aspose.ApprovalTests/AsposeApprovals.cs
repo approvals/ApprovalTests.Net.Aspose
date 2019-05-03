@@ -6,14 +6,7 @@ namespace AsposeApprovalTests
 {
     public static partial class AsposeApprovals
     {
-        static void VerifyBinary(MemoryStream outputStream)
-        {
-            outputStream.Position = 0;
-            var array = outputStream.ToArray();
-            Approvals.VerifyBinaryFile(array, ".png");
-        }
-
-        static void VerifyBinary(MemoryStream outputStream, int pageIndex, int count, string extension = ".png")
+        static void VerifyBinary(MemoryStream outputStream, ref ApprovalException exception, string extension = ".png")
         {
             outputStream.Position = 0;
             var array = outputStream.ToArray();
@@ -21,12 +14,9 @@ namespace AsposeApprovalTests
             {
                 Approvals.VerifyBinaryFile(array, extension);
             }
-            catch (ApprovalException)
+            catch (ApprovalException approvalException)
             {
-                if (pageIndex+1 == count)
-                {
-                    throw;
-                }
+                exception = approvalException;
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using ApprovalTests.Core.Exceptions;
 using ApprovalTests.Namers;
 using Aspose.Slides;
 
@@ -24,6 +25,7 @@ namespace AsposeApprovalTests
 
         static void VerifyPowerPoint(Presentation document)
         {
+            ApprovalException exception = null;
             for (var pageIndex = 0; pageIndex < document.Slides.Count; pageIndex++)
             {
                 var slide = document.Slides[pageIndex];
@@ -32,8 +34,12 @@ namespace AsposeApprovalTests
                 using (var outputStream = new MemoryStream())
                 {
                     slide.WriteAsSvg(outputStream);
-                    VerifyBinary(outputStream, pageIndex, document.Slides.Count, ".svg");
+                    VerifyBinary(outputStream, ref exception, ".svg");
                 }
+            }
+            if (exception != null)
+            {
+                throw exception;
             }
         }
     }

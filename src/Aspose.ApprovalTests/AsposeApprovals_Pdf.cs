@@ -1,4 +1,6 @@
 ﻿using System.IO;
+using System.Runtime.ExceptionServices;
+using ApprovalTests.Core.Exceptions;
 using ApprovalTests.Namers;
 using Aspose.Pdf;
 using Aspose.Pdf.Devices;
@@ -27,6 +29,7 @@ namespace AsposeApprovalTests
 
         static void VerifyPdf(Document document)
         {
+            ApprovalException exception = null;
             foreach (var page in document.Pages)
             {
                 var name = $"{page.Number:D2}";
@@ -34,8 +37,13 @@ namespace AsposeApprovalTests
                 using (var outputStream = new MemoryStream())
                 {
                     pngDevice.Process(page, outputStream);
-                    VerifyBinary(outputStream, page.Number, document.Pages.Count);
+                    VerifyBinary(outputStream, ref exception);
                 }
+            }
+
+            if (exception != null)
+            {
+                ExceptionDispatchInfo.Capture(exception).Throw();
             }
         }
     }
