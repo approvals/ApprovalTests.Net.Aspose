@@ -12,7 +12,7 @@ Converts documents (pdf, docx, xslx, pptx) to png for verification.
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
 
-## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg?style=flat)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
 https://nuget.org/packages/Aspose.ApprovalTests/
 
