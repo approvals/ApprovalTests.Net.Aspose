@@ -5,11 +5,11 @@
     <GenerateDocumentationFile Condition="$(Configuration)=='Release'">true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ApprovalTests" Version="3.0.22" />
-    <PackageReference Include="Aspose.Pdf" Version="19.5.0" />
+    <PackageReference Include="ApprovalTests" Version="4.0.0" />
+    <PackageReference Include="Aspose.Pdf" Version="19.6.0" />
     <PackageReference Include="Aspose.Cells" Version="19.5.0" />
-    <PackageReference Include="Aspose.Words" Version="19.5.0" />
-    <PackageReference Include="Aspose.Slides.NET" Version="19.4.0" />
+    <PackageReference Include="Aspose.Words" Version="19.6.0" />
+    <PackageReference Include="Aspose.Slides.NET" Version="19.5.0" />
     <!--
     <PackageReference Include="Aspose.HTML" Version="19.4.0" />
     -->
