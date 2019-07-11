@@ -11,8 +11,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 
 https://nuget.org/packages/Aspose.ApprovalTests/
 
-    PM> Install-Package Aspose.ApprovalTests
-
 
 ## Usage
 
@@ -59,4 +57,4 @@ http://file-examples.com/
 
 ## Icon
 
-<a href="http://thenounproject.com/term/swirl/1568686/" target="_blank">Swirl</a> designed by <a href="http://thenounproject.com/creativepriyanka" target="_blank">creativepriyanka</a> from The Noun Project
+<a href="http://thenounproject.com/term/swirl/1568686/">Swirl</a> designed by <a href="http://thenounproject.com/creativepriyanka">creativepriyanka</a> from The Noun Project

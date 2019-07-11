@@ -17,8 +17,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 
 https://nuget.org/packages/Aspose.ApprovalTests/
 
-    PM> Install-Package Aspose.ApprovalTests
-
 
 ## Usage
 
