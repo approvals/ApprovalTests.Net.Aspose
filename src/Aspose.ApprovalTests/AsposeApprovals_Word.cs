@@ -5,46 +5,43 @@ using ApprovalTests.Namers;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace AsposeApprovalTests
+public static partial class AsposeApprovals
 {
-    public static partial class AsposeApprovals
+    public static void VerifyWord(string path)
     {
-        public static void VerifyWord(string path)
+        var document = new Document(path);
         {
-            var document = new Document(path);
-            {
-                VerifyWord(document);
-            }
-        }
-
-        public static void VerifyWord(Stream stream)
-        {
-            var document = new Document(stream);
             VerifyWord(document);
         }
+    }
 
-        static void VerifyWord(Document document)
+    public static void VerifyWord(Stream stream)
+    {
+        var document = new Document(stream);
+        VerifyWord(document);
+    }
+
+    static void VerifyWord(Document document)
+    {
+        ApprovalException exception = null;
+        for (var pageIndex = 0; pageIndex < document.PageCount; pageIndex++)
         {
-            ApprovalException exception = null;
-            for (var pageIndex = 0; pageIndex < document.PageCount; pageIndex++)
+            var options = new ImageSaveOptions(SaveFormat.Png)
             {
-                var options = new ImageSaveOptions(SaveFormat.Png)
-                {
-                    PageIndex = pageIndex
-                };
-                var name = $"{pageIndex + 1:D2}";
-                using (NamerFactory.AsEnvironmentSpecificTest(() => name))
-                using (var outputStream = new MemoryStream())
-                {
-                    document.Save(outputStream, options);
-                    VerifyBinary(outputStream, ref exception);
-                }
+                PageIndex = pageIndex
+            };
+            var name = $"{pageIndex + 1:D2}";
+            using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+            using (var outputStream = new MemoryStream())
+            {
+                document.Save(outputStream, options);
+                VerifyBinary(outputStream, ref exception);
             }
+        }
 
-            if (exception != null)
-            {
-                ExceptionDispatchInfo.Capture(exception).Throw();
-            }
+        if (exception != null)
+        {
+            ExceptionDispatchInfo.Capture(exception).Throw();
         }
     }
 }

@@ -6,6 +6,8 @@ Converts documents (pdf, docx, xslx, pptx) to png for verification.
 
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
+toc
+
 
 ## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
@@ -47,7 +49,6 @@ Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/A
 snippet: VerifyPowerPoint
 
 Result: [Samples.VerifyPowerPoint.01.approved.svg](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
-
 
 
 ## File Samples

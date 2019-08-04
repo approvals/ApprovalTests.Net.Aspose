@@ -1,5 +1,4 @@
-﻿using AsposeApprovalTests;
-using Xunit;
+﻿using Xunit;
 using Xunit.Abstractions;
 
 public class Samples :

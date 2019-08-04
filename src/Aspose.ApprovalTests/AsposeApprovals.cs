@@ -2,22 +2,19 @@
 using ApprovalTests;
 using ApprovalTests.Core.Exceptions;
 
-namespace AsposeApprovalTests
+public static partial class AsposeApprovals
 {
-    public static partial class AsposeApprovals
+    static void VerifyBinary(MemoryStream outputStream, ref ApprovalException exception, string extension = ".png")
     {
-        static void VerifyBinary(MemoryStream outputStream, ref ApprovalException exception, string extension = ".png")
+        outputStream.Position = 0;
+        var array = outputStream.ToArray();
+        try
         {
-            outputStream.Position = 0;
-            var array = outputStream.ToArray();
-            try
-            {
-                Approvals.VerifyBinaryFile(array, extension);
-            }
-            catch (ApprovalException approvalException)
-            {
-                exception = approvalException;
-            }
+            Approvals.VerifyBinaryFile(array, extension);
+        }
+        catch (ApprovalException approvalException)
+        {
+            exception = approvalException;
         }
     }
 }
