@@ -42,7 +42,7 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 ```cs
 AsposeApprovals.VerifyPdf("sample.pdf");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L11-L15)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L10-L14)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png):
@@ -56,7 +56,7 @@ Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/As
 ```cs
 AsposeApprovals.VerifyExcel("sample.xlsx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L31-L35)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L30-L34)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png):
@@ -70,7 +70,7 @@ Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCro
 ```cs
 AsposeApprovals.VerifyWord("sample.docx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L41-L45)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L40-L44)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png):
@@ -84,7 +84,7 @@ Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/A
 ```cs
 AsposeApprovals.VerifyPowerPoint("sample.pptx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L21-L25)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L20-L24)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyPowerPoint.01.approved.svg](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
