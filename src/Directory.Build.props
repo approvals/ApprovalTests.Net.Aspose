@@ -4,11 +4,6 @@
     <NoWarn>CS1591;CS0649</NoWarn>
     <Version>2.0.0</Version>
     <PackageTags>Aspose, ApprovalTests</PackageTags>
-    <PackageIconUrl>https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/icon.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/SimonCropp/Aspose.ApprovalTests</PackageProjectUrl>
     <Description>Extends ApprovalTests to allow approval via Aspose.</Description>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="ProjectDefaults" Version="1.0.3" PrivateAssets="All" />
-  </ItemGroup>
 </Project>
