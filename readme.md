@@ -16,7 +16,7 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 <!-- toc -->
 ## Contents
 
-  * [The NuGet package ![NuGet Status](https://www.nuget.org/packages/Aspose.ApprovalTests/)](#the-nuget-package-nuget-statushttpswwwnugetorgpackagesasposeapprovaltests)
+  * [NuGet package](#nuget-package)
   * [Usage](#usage)
     * [PDF](#pdf)
     * [Excel](#excel)
@@ -28,9 +28,9 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 
 
 
-## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+## NuGet package
 
-https://nuget.org/packages/Aspose.ApprovalTests/
+https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
 
 ## Usage

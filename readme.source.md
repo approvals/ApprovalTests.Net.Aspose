@@ -9,9 +9,9 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 toc
 
 
-## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+## NuGet package
 
-https://nuget.org/packages/Aspose.ApprovalTests/
+https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
 
 ## Usage
