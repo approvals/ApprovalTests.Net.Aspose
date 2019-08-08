@@ -47,7 +47,7 @@ AsposeApprovals.VerifyPdf("sample.pdf");
 
 Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
 
 
 ### Excel
@@ -61,7 +61,7 @@ AsposeApprovals.VerifyExcel("sample.xlsx");
 
 Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
 
 
 ### Word
@@ -75,7 +75,7 @@ AsposeApprovals.VerifyWord("sample.docx");
 
 Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png):
 
-<img src="https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
 
 
 ### PowerPoint
@@ -97,4 +97,4 @@ http://file-examples.com/
 
 ## Icon
 
-<a href="http://thenounproject.com/term/swirl/1568686/">Swirl</a> designed by <a href="http://thenounproject.com/creativepriyanka">creativepriyanka</a> from The Noun Project
+[Swirl](https://thenounproject.com/term/swirl/1568686/) designed by [creativepriyanka](https://thenounproject.com/creativepriyanka) from [The Noun Project](https://thenounproject.com/creativepriyanka).
