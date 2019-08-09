@@ -44,6 +44,26 @@ public class Samples :
         #endregion
     }
 
+    [Fact]
+    public void VerifyMarkdown()
+    {
+        #region VerifyMarkdown
+
+        AsposeApprovals.VerifyMarkdown("sample.md");
+
+        #endregion
+    }
+
+    [Fact]
+    public void VerifyMarkdownText()
+    {
+        #region VerifyMarkdownText
+
+        AsposeApprovals.VerifyMarkdownText("## Header");
+
+        #endregion
+    }
+
     public Samples(ITestOutputHelper output) :
         base(output)
     {

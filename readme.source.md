@@ -2,7 +2,7 @@
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
-Converts documents (pdf, docx, xslx, pptx) to png for verification.
+Converts documents (pdf, docx, xslx, pptx, md) to png for verification.
 
 An [Aspose License](https://purchase.aspose.com/policies/license-types) is required to use this tool.
 
@@ -17,11 +17,29 @@ https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shi
 ## Usage
 
 
+### Markdown
+
+snippet: VerifyMarkdown
+
+Two Files will be produced:
+
+  * '.md' with the markdown contents
+  * '.png' with the resultant html rendered as a png
+
+Result:
+
+[Samples.VerifyMarkdown.approved.md](/src/Tests/Samples.VerifyMarkdown.approved.md):
+
+[Samples.VerifyMarkdown.approved.png](/src/Tests/Samples.VerifyMarkdown.approved.png):
+
+<img src="/src/Tests/Samples.VerifyMarkdown.approved.png" width="200px">
+
+
 ### PDF
 
 snippet: VerifyPdf
 
-Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPdf.01.approved.png):
+Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.approved.png):
 
 <img src="/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
 
@@ -30,7 +48,7 @@ Result: [Samples.VerifyPdf.01.approved.png](https://raw.github.com/SimonCropp/As
 
 snippet: VerifyExcel
 
-Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyExcel.01.01.approved.png):
+Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.01.01.approved.png):
 
 <img src="/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
 
@@ -39,7 +57,7 @@ Result: [Samples.VerifyExcel.01.01.approved.png](https://raw.github.com/SimonCro
 
 snippet: VerifyWord
 
-Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyWord.01.approved.png):
+Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.approved.png):
 
 <img src="/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
 
@@ -48,7 +66,7 @@ Result: [Samples.VerifyWord.01.approved.png](https://raw.github.com/SimonCropp/A
 
 snippet: VerifyPowerPoint
 
-Result: [Samples.VerifyPowerPoint.01.approved.svg](https://raw.github.com/SimonCropp/Aspose.ApprovalTests/master/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
+Result: [Samples.VerifyPowerPoint.01.approved.svg](/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
 
 
 ## File Samples
