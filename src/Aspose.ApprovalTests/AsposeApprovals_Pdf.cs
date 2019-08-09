@@ -9,6 +9,7 @@ public static partial class AsposeApprovals
 {
     public static void VerifyPdf(string path)
     {
+        Guard.AgainstNullOrEmpty(path, nameof(path));
         using (var document = new Document(path))
         {
             VerifyPdf(document);
@@ -17,6 +18,7 @@ public static partial class AsposeApprovals
 
     public static void VerifyPdf(Stream stream)
     {
+        Guard.AgainstNull(stream, nameof(stream));
         using (var document = new Document(stream))
         {
             VerifyPdf(document);

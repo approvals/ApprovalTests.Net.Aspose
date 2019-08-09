@@ -10,6 +10,7 @@ public static partial class AsposeApprovals
 {
     public static void VerifyExcel(string path)
     {
+        Guard.AgainstNullOrEmpty(path, nameof(path));
         var document = new Workbook(path);
         {
             VerifyWord(document);
@@ -18,6 +19,7 @@ public static partial class AsposeApprovals
 
     public static void VerifyExcel(Stream stream)
     {
+        Guard.AgainstNull(stream, nameof(stream));
         using (var document = new Workbook(stream))
         {
             VerifyWord(document);

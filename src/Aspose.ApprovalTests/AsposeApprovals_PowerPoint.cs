@@ -7,6 +7,7 @@ public static partial class AsposeApprovals
 {
     public static void VerifyPowerPoint(string path)
     {
+        Guard.AgainstNullOrEmpty(path, nameof(path));
         var document = new Presentation(path);
         {
             VerifyPowerPoint(document);
@@ -15,6 +16,7 @@ public static partial class AsposeApprovals
 
     public static void VerifyPowerPoint(Stream stream)
     {
+        Guard.AgainstNull(stream, nameof(stream));
         using (var document = new Presentation(stream))
         {
             VerifyPowerPoint(document);

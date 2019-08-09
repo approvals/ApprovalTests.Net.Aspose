@@ -9,6 +9,7 @@ public static partial class AsposeApprovals
 {
     public static void VerifyWord(string path)
     {
+        Guard.AgainstNullOrEmpty(path, nameof(path));
         var document = new Document(path);
         {
             VerifyWord(document);
@@ -17,6 +18,7 @@ public static partial class AsposeApprovals
 
     public static void VerifyWord(Stream stream)
     {
+        Guard.AgainstNull(stream, nameof(stream));
         var document = new Document(stream);
         VerifyWord(document);
     }
