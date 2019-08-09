@@ -13,5 +13,6 @@
 *.pptx binary
 *.ppt binary
 *.vsdx binary
+*.md binary
 
 *.approved.* binary
