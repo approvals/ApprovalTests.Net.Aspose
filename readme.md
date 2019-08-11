@@ -40,10 +40,11 @@ https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shi
 ### Markdown
 
 <!-- snippet: VerifyMarkdown -->
+<a id='snippet-verifymarkdown'/></a>
 ```cs
 AsposeApprovals.VerifyMarkdown("sample.md");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L50-L54)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L50-L54) / [anchor](#snippet-verifymarkdown)</sup>
 <!-- endsnippet -->
 
 Two Files will be produced:
@@ -63,10 +64,11 @@ Result:
 ### PDF
 
 <!-- snippet: VerifyPdf -->
+<a id='snippet-verifypdf'/></a>
 ```cs
 AsposeApprovals.VerifyPdf("sample.pdf");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L10-L14)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L10-L14) / [anchor](#snippet-verifypdf)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.approved.png):
@@ -77,10 +79,11 @@ Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.appr
 ### Excel
 
 <!-- snippet: VerifyExcel -->
+<a id='snippet-verifyexcel'/></a>
 ```cs
 AsposeApprovals.VerifyExcel("sample.xlsx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L30-L34)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L30-L34) / [anchor](#snippet-verifyexcel)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.01.01.approved.png):
@@ -91,10 +94,11 @@ Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.
 ### Word
 
 <!-- snippet: VerifyWord -->
+<a id='snippet-verifyword'/></a>
 ```cs
 AsposeApprovals.VerifyWord("sample.docx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L40-L44)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L40-L44) / [anchor](#snippet-verifyword)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.approved.png):
@@ -105,10 +109,11 @@ Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.ap
 ### PowerPoint
 
 <!-- snippet: VerifyPowerPoint -->
+<a id='snippet-verifypowerpoint'/></a>
 ```cs
 AsposeApprovals.VerifyPowerPoint("sample.pptx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L20-L24)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L20-L24) / [anchor](#snippet-verifypowerpoint)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyPowerPoint.01.approved.svg](/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
