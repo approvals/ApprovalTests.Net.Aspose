@@ -5,8 +5,6 @@ build_script:
 - ps: >-
     dotnet build src --configuration Release
 
-    Push-AppveyorArtifact \**\*received.*
-
     dotnet test src --configuration Release --no-build --no-restore
 test: off
 artifacts:
