@@ -25,15 +25,15 @@ public class Samples :
         #endregion
     }
 
-    //[Fact]
-    //public void VerifyExcel()
-    //{
-    //    #region VerifyExcel
+    [Fact]
+    public void VerifyExcel()
+    {
+        #region VerifyExcel
 
-    //    AsposeApprovals.VerifyExcel("sample.xlsx");
+       // AsposeApprovals.VerifyExcel("sample.xlsx");
 
-    //    #endregion
-    //}
+        #endregion
+    }
 
     [Fact]
     public void VerifyWord()
