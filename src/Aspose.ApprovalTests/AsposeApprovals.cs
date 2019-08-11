@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using ApprovalTests;
 using ApprovalTests.Core.Exceptions;
-using ApprovalTests.Writers;
 
 public static partial class AsposeApprovals
 {
@@ -12,18 +11,6 @@ public static partial class AsposeApprovals
         try
         {
             Approvals.VerifyBinaryFile(array, extension);
-        }
-        catch (ApprovalException approvalException)
-        {
-            exception = approvalException;
-        }
-    }
-
-    static void VerifyMarkdownFile(string path, ref ApprovalException exception)
-    {
-        try
-        {
-            Approvals.Verify(WriterFactory.CreateTextWriter(File.ReadAllText(path), "md"));
         }
         catch (ApprovalException approvalException)
         {

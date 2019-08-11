@@ -17,24 +17,6 @@ https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shi
 ## Usage
 
 
-### Markdown
-
-snippet: VerifyMarkdown
-
-Two Files will be produced:
-
-  * '.md' with the markdown contents
-  * '.png' with the resultant html rendered as a png
-
-Result:
-
-[Samples.VerifyMarkdown.approved.md](/src/Tests/Samples.VerifyMarkdown.approved.md):
-
-[Samples.VerifyMarkdown.approved.png](/src/Tests/Samples.VerifyMarkdown.approved.png):
-
-<img src="/src/Tests/Samples.VerifyMarkdown.approved.png" width="200px">
-
-
 ### PDF
 
 snippet: VerifyPdf

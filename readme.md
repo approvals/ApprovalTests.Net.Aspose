@@ -18,7 +18,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 
   * [NuGet package](#nuget-package)
   * [Usage](#usage)
-    * [Markdown](#markdown)
     * [PDF](#pdf)
     * [Excel](#excel)
     * [Word](#word)
@@ -35,30 +34,6 @@ https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shi
 
 
 ## Usage
-
-
-### Markdown
-
-<!-- snippet: VerifyMarkdown -->
-<a id='snippet-verifymarkdown'/></a>
-```cs
-AsposeApprovals.VerifyMarkdown("sample.md");
-```
-<sup>[snippet source](/src/Tests/Samples.cs#L50-L54) / [anchor](#snippet-verifymarkdown)</sup>
-<!-- endsnippet -->
-
-Two Files will be produced:
-
-  * '.md' with the markdown contents
-  * '.png' with the resultant html rendered as a png
-
-Result:
-
-[Samples.VerifyMarkdown.approved.md](/src/Tests/Samples.VerifyMarkdown.approved.md):
-
-[Samples.VerifyMarkdown.approved.png](/src/Tests/Samples.VerifyMarkdown.approved.png):
-
-<img src="/src/Tests/Samples.VerifyMarkdown.approved.png" width="200px">
 
 
 ### PDF

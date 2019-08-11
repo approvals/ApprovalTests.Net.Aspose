@@ -4,7 +4,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ApprovalTests" Version="4.0.0" />
-    <PackageReference Include="Aspose.HTML" Version="19.8.0" />
     <PackageReference Include="Aspose.Pdf" Version="19.8.0" />
     <PackageReference Include="Aspose.Cells" Version="19.7.0" />
     <PackageReference Include="Aspose.Words" Version="19.8.0" />
