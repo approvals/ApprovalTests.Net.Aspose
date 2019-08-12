@@ -13,7 +13,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <ProjectReference Include="..\Aspose.ApprovalTests\Aspose.ApprovalTests.csproj" />
-    <PackageReference Include="ProjectDefaults" Version="1.0.10" PrivateAssets="All" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.13" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <None Update="sample.*">
