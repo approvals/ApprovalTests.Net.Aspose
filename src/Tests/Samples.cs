@@ -25,6 +25,7 @@ public class Samples :
     }
 
     [Fact]
+    [Trait("Category", "Integration")]
     public void VerifyExcel()
     {
         #region VerifyExcel
