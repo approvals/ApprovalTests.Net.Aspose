@@ -7,6 +7,8 @@ To change this file edit the source file and then run MarkdownSnippets.
 
 # <img src="/src/icon.png" height="40px"> Aspose.ApprovalTests
 
+[![Build status](https://ci.appveyor.com/api/projects/status/nohkvrf18rjb90u3?svg=true)](https://ci.appveyor.com/project/SimonCropp/aspose-approvaltests) [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
 Converts documents (pdf, docx, xslx, pptx, md) to png for verification.
@@ -30,7 +32,7 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 
 ## NuGet package
 
-https://nuget.org/packages/Aspose.ApprovalTests/ [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+https://nuget.org/packages/Aspose.ApprovalTests/
 
 
 ## Usage
