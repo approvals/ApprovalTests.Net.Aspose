@@ -58,7 +58,7 @@ Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.appr
 ```cs
 AsposeApprovals.VerifyExcel("sample.xlsx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L30-L34) / [anchor](#snippet-verifyexcel)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L31-L35) / [anchor](#snippet-verifyexcel)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.01.01.approved.png):
@@ -73,7 +73,7 @@ Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.
 ```cs
 AsposeApprovals.VerifyWord("sample.docx");
 ```
-<sup>[snippet source](/src/Tests/Samples.cs#L40-L44) / [anchor](#snippet-verifyword)</sup>
+<sup>[snippet source](/src/Tests/Samples.cs#L41-L45) / [anchor](#snippet-verifyword)</sup>
 <!-- endsnippet -->
 
 Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.approved.png):
