@@ -5,7 +5,7 @@ Source File: /readme.source.md
 To change this file edit the source file and then run MarkdownSnippets.
 -->
 
-# <img src="/src/icon.png" height="40px"> Aspose.ApprovalTests
+# <img src="/src/icon.png" height="30px"> Aspose.ApprovalTests
 
 [![Build status](https://ci.appveyor.com/api/projects/status/nohkvrf18rjb90u3?svg=true)](https://ci.appveyor.com/project/SimonCropp/aspose-approvaltests) [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg?cacheSeconds=86400)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
