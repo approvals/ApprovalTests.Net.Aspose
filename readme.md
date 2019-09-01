@@ -7,7 +7,7 @@ To change this file edit the source file and then run MarkdownSnippets.
 
 # <img src="/src/icon.png" height="40px"> Aspose.ApprovalTests
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nohkvrf18rjb90u3?svg=true)](https://ci.appveyor.com/project/SimonCropp/aspose-approvaltests) [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
+[![Build status](https://ci.appveyor.com/api/projects/status/nohkvrf18rjb90u3?svg=true)](https://ci.appveyor.com/project/SimonCropp/aspose-approvaltests) [![NuGet Status](http://img.shields.io/nuget/v/Aspose.ApprovalTests.svg?cacheSeconds=86400)](https://www.nuget.org/packages/Aspose.ApprovalTests/)
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow approval of document via [Aspose](https://www.aspose.com/).
 
@@ -25,7 +25,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
     * [Word](#word)
     * [PowerPoint](#powerpoint)
   * [File Samples](#file-samples)
-  * [Icon](#icon)
 <!-- endtoc -->
 
 
@@ -99,6 +98,11 @@ Result: [Samples.VerifyPowerPoint.01.approved.svg](/src/Tests/Samples.VerifyPowe
 ## File Samples
 
 http://file-examples.com/
+
+
+## Release Notes
+
+See [closed milestones](../../milestones?state=closed).
 
 
 ## Icon
