@@ -34,8 +34,8 @@ public static partial class AsposeApprovals
             };
             var name = $"{pageIndex + 1:D2}";
             using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+            using (var outputStream = new MemoryStream())
             {
-                using var outputStream = new MemoryStream();
                 document.Save(outputStream, options);
                 VerifyBinary(outputStream, ref exception);
             }

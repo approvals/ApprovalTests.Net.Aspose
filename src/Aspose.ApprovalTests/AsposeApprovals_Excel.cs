@@ -20,8 +20,10 @@ public static partial class AsposeApprovals
     public static void VerifyExcel(Stream stream)
     {
         Guard.AgainstNull(stream, nameof(stream));
-        using var document = new Workbook(stream);
-        VerifyWord(document);
+        using (var document = new Workbook(stream))
+        {
+            VerifyWord(document);
+        }
     }
 
     static ImageOrPrintOptions excelOptions = new ImageOrPrintOptions
@@ -43,8 +45,8 @@ public static partial class AsposeApprovals
                 var name = $"{sheetNumber:D2}.{pageNumber:D2}";
 
                 using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+                using (var outputStream = new MemoryStream())
                 {
-                    using var outputStream = new MemoryStream();
                     sheetRender.ToImage(pageIndex, outputStream);
                     VerifyBinary(outputStream, ref exception);
                 }

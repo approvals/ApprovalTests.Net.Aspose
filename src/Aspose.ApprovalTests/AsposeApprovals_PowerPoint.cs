@@ -8,15 +8,19 @@ public static partial class AsposeApprovals
     public static void VerifyPowerPoint(string path)
     {
         Guard.AgainstNullOrEmpty(path, nameof(path));
-        using var document = new Presentation(path);
-        VerifyPowerPoint(document);
+        var document = new Presentation(path);
+        {
+            VerifyPowerPoint(document);
+        }
     }
 
     public static void VerifyPowerPoint(Stream stream)
     {
         Guard.AgainstNull(stream, nameof(stream));
-        using var document = new Presentation(stream);
-        VerifyPowerPoint(document);
+        using (var document = new Presentation(stream))
+        {
+            VerifyPowerPoint(document);
+        }
     }
 
     static void VerifyPowerPoint(Presentation document)
@@ -27,8 +31,8 @@ public static partial class AsposeApprovals
             var slide = document.Slides[pageIndex];
             var name = $"{pageIndex + 1:D2}";
             using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+            using (var outputStream = new MemoryStream())
             {
-                using var outputStream = new MemoryStream();
                 slide.WriteAsSvg(outputStream);
                 VerifyBinary(outputStream, ref exception, ".svg");
             }
