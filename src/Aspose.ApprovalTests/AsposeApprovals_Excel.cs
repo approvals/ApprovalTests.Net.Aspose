@@ -20,10 +20,8 @@ public static partial class AsposeApprovals
     public static void VerifyExcel(Stream stream)
     {
         Guard.AgainstNull(stream, nameof(stream));
-        using (var document = new Workbook(stream))
-        {
-            VerifyWord(document);
-        }
+        using var document = new Workbook(stream);
+        VerifyWord(document);
     }
 
     static ImageOrPrintOptions excelOptions = new ImageOrPrintOptions
@@ -33,7 +31,7 @@ public static partial class AsposeApprovals
 
     static void VerifyWord(Workbook document)
     {
-        ApprovalException exception = null;
+        ApprovalException? exception = null;
         for (var sheetIndex = 0; sheetIndex < document.Worksheets.Count; sheetIndex++)
         {
             var worksheet = document.Worksheets[sheetIndex];

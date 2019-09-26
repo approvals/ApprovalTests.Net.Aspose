@@ -25,7 +25,7 @@ public static partial class AsposeApprovals
 
     static void VerifyWord(Document document)
     {
-        ApprovalException exception = null;
+        ApprovalException? exception = null;
         for (var pageIndex = 0; pageIndex < document.PageCount; pageIndex++)
         {
             var options = new ImageSaveOptions(SaveFormat.Png)

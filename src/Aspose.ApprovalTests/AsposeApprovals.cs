@@ -4,7 +4,7 @@ using ApprovalTests.Core.Exceptions;
 
 public static partial class AsposeApprovals
 {
-    static void VerifyBinary(MemoryStream outputStream, ref ApprovalException exception, string extension = ".png")
+    static void VerifyBinary(MemoryStream outputStream, ref ApprovalException? exception, string extension = ".png")
     {
         outputStream.Position = 0;
         var array = outputStream.ToArray();

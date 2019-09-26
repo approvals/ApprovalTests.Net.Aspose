@@ -17,15 +17,13 @@ public static partial class AsposeApprovals
     public static void VerifyPowerPoint(Stream stream)
     {
         Guard.AgainstNull(stream, nameof(stream));
-        using (var document = new Presentation(stream))
-        {
-            VerifyPowerPoint(document);
-        }
+        using var document = new Presentation(stream);
+        VerifyPowerPoint(document);
     }
 
     static void VerifyPowerPoint(Presentation document)
     {
-        ApprovalException exception = null;
+        ApprovalException? exception = null;
         for (var pageIndex = 0; pageIndex < document.Slides.Count; pageIndex++)
         {
             var slide = document.Slides[pageIndex];
