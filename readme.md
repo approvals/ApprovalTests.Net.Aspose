@@ -47,9 +47,9 @@ AsposeApprovals.VerifyPdf("sample.pdf");
 <sup>[snippet source](/src/Tests/Samples.cs#L10-L14) / [anchor](#snippet-verifypdf)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.approved.png):
+Result: [Samples.VerifyPdf_01.approved.png](/src/Tests/Samples.VerifyPdf_01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPdf_01.approved.png" width="200px">
 
 
 ### Excel
@@ -62,9 +62,9 @@ AsposeApprovals.VerifyExcel("sample.xlsx");
 <sup>[snippet source](/src/Tests/Samples.cs#L31-L35) / [anchor](#snippet-verifyexcel)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.01.01.approved.png):
+Result: [Samples.VerifyExcel_01.01.approved.png](/src/Tests/Samples.VerifyExcel_01.01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyExcel_01.01.approved.png" width="200px">
 
 
 ### Word
@@ -77,9 +77,9 @@ AsposeApprovals.VerifyWord("sample.docx");
 <sup>[snippet source](/src/Tests/Samples.cs#L41-L45) / [anchor](#snippet-verifyword)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.approved.png):
+Result: [Samples.VerifyWord_01.approved.png](/src/Tests/Samples.VerifyWord_01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyWord_01.approved.png" width="200px">
 
 
 ### PowerPoint
@@ -92,7 +92,7 @@ AsposeApprovals.VerifyPowerPoint("sample.pptx");
 <sup>[snippet source](/src/Tests/Samples.cs#L20-L24) / [anchor](#snippet-verifypowerpoint)</sup>
 <!-- endsnippet -->
 
-Result: [Samples.VerifyPowerPoint.01.approved.svg](/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
+Result: [Samples.VerifyPowerPoint_01.approved.svg](/src/Tests/Samples.VerifyPowerPoint_01.approved.svg):
 
 
 ## File Samples

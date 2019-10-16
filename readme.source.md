@@ -23,34 +23,34 @@ https://nuget.org/packages/Aspose.ApprovalTests/
 
 snippet: VerifyPdf
 
-Result: [Samples.VerifyPdf.01.approved.png](/src/Tests/Samples.VerifyPdf.01.approved.png):
+Result: [Samples.VerifyPdf_01.approved.png](/src/Tests/Samples.VerifyPdf_01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyPdf.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPdf_01.approved.png" width="200px">
 
 
 ### Excel
 
 snippet: VerifyExcel
 
-Result: [Samples.VerifyExcel.01.01.approved.png](/src/Tests/Samples.VerifyExcel.01.01.approved.png):
+Result: [Samples.VerifyExcel_01.01.approved.png](/src/Tests/Samples.VerifyExcel_01.01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyExcel.01.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyExcel_01.01.approved.png" width="200px">
 
 
 ### Word
 
 snippet: VerifyWord
 
-Result: [Samples.VerifyWord.01.approved.png](/src/Tests/Samples.VerifyWord.01.approved.png):
+Result: [Samples.VerifyWord_01.approved.png](/src/Tests/Samples.VerifyWord_01.approved.png):
 
-<img src="/src/Tests/Samples.VerifyWord.01.approved.png" width="200px">
+<img src="/src/Tests/Samples.VerifyWord_01.approved.png" width="200px">
 
 
 ### PowerPoint
 
 snippet: VerifyPowerPoint
 
-Result: [Samples.VerifyPowerPoint.01.approved.svg](/src/Tests/Samples.VerifyPowerPoint.01.approved.svg):
+Result: [Samples.VerifyPowerPoint_01.approved.svg](/src/Tests/Samples.VerifyPowerPoint_01.approved.svg):
 
 
 ## File Samples

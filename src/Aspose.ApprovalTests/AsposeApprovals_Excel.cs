@@ -43,8 +43,8 @@ public static partial class AsposeApprovals
                 var name = $"{sheetNumber:D2}.{pageNumber:D2}";
 
                 using (NamerFactory.AsEnvironmentSpecificTest(() => name))
-                using (var outputStream = new MemoryStream())
                 {
+                    using var outputStream = new MemoryStream();
                     sheetRender.ToImage(pageIndex, outputStream);
                     VerifyBinary(outputStream, ref exception);
                 }

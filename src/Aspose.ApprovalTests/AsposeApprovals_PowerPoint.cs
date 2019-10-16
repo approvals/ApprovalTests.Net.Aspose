@@ -29,8 +29,8 @@ public static partial class AsposeApprovals
             var slide = document.Slides[pageIndex];
             var name = $"{pageIndex + 1:D2}";
             using (NamerFactory.AsEnvironmentSpecificTest(() => name))
-            using (var outputStream = new MemoryStream())
             {
+                using var outputStream = new MemoryStream();
                 slide.WriteAsSvg(outputStream);
                 VerifyBinary(outputStream, ref exception, ".svg");
             }
