@@ -11,11 +11,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 toc
 
 
-## NuGet package
-
-https://nuget.org/packages/Aspose.ApprovalTests/
-
-
 ## Usage
 
 

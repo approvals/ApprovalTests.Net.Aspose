@@ -18,7 +18,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
 <!-- toc -->
 ## Contents
 
-  * [NuGet package](#nuget-package)
   * [Usage](#usage)
     * [PDF](#pdf)
     * [Excel](#excel)
@@ -27,11 +26,6 @@ An [Aspose License](https://purchase.aspose.com/policies/license-types) is requi
   * [File Samples](#file-samples)
 <!-- endtoc -->
 
-
-
-## NuGet package
-
-https://nuget.org/packages/Aspose.ApprovalTests/
 
 
 ## Usage
