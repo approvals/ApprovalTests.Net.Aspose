@@ -33,7 +33,7 @@ public static partial class AsposeApprovals
                 PageIndex = pageIndex
             };
             var name = $"{pageIndex + 1:D2}";
-            using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+            using (NamerFactory.AsEnvironmentSpecificTest(name))
             {
                 using var outputStream = new MemoryStream();
                 document.Save(outputStream, options);

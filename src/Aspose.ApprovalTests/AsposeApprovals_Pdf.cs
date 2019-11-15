@@ -29,7 +29,7 @@ public static partial class AsposeApprovals
         foreach (var page in document.Pages)
         {
             var name = $"{page.Number:D2}";
-            using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+            using (NamerFactory.AsEnvironmentSpecificTest(name))
             {
                 using var outputStream = new MemoryStream();
                 pngDevice.Process(page, outputStream);

@@ -42,7 +42,7 @@ public static partial class AsposeApprovals
                 var sheetNumber = sheetIndex + 1;
                 var name = $"{sheetNumber:D2}.{pageNumber:D2}";
 
-                using (NamerFactory.AsEnvironmentSpecificTest(() => name))
+                using (NamerFactory.AsEnvironmentSpecificTest(name))
                 {
                     using var outputStream = new MemoryStream();
                     sheetRender.ToImage(pageIndex, outputStream);
