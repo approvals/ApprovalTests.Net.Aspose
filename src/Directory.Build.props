@@ -3,6 +3,7 @@
   <PropertyGroup>
     <NoWarn>CS1591;CS0649</NoWarn>
     <Version>1.1.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
     <PackageTags>Aspose, ApprovalTests</PackageTags>
     <Description>Extends ApprovalTests to allow approval via Aspose.</Description>
   </PropertyGroup>
